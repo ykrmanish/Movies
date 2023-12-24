@@ -1,0 +1,44 @@
+
+.hightlights{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.heading{
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 15px;
+}
+
+.carousel-item{
+  height: 450px;
+  width: 800px;
+}
+
+@media (max-width: 800px){
+    .highlights
+    {
+        display: none !important;
+    }
+  }
+
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.movie-box{
+height: 300px;
+width: 200px;
+}
+
+.poster{
+    height: 300px;
+    width: 200px;
+    object-fit: fill;
+    border-radius: 2%;
+}
